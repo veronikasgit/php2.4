@@ -35,5 +35,6 @@ if(isset($_POST['button'])) {
 </form>
 
 <p><a href = "list.php">Перейти к списку тестов</a></p>
+<p><a href = "index.php?action=exit">Выйти из учетной записи</a></p>
 </body>
 </html>
