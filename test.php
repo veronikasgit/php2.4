@@ -14,6 +14,7 @@ foreach ($filelist as  $key => $filename) {
 		echo 'Данного теста не существует';
 		echo '<a href="admin.php">Загрузить новый тест</a>' . '<br>';
 		echo '<br>' . '<a href="list.php">Перейти к списку тестов</a>' . '<br>';
+		<p><a href = "index.php?action=exit">Выйти из учетной записи</a></p>
 		exit;
 	}
 }

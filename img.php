@@ -7,11 +7,7 @@ if (isset($_SESSION['login']) && ($_SESSION['login'] !== "guest")) {
     $name = $_SESSION['login'];
 } 
 
-//var_dump($_GET);
-//echo '<br>';
 $mark = $_GET['mark'];
-//echo $mark;
-//echo '<br>';
 
 if ($mark == 0) {
 	$code = 2;
